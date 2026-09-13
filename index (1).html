@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background: #616060;
+            color: #222;
+        }
+
+        header, section {
+            background: rgb(245, 243, 239);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+            margin: 15px 0;
+        }
+
+        a {
+            margin-right: 15px;
+        }
+
+        button, input[type="submit"] {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        form {
+            display: grid;
+            gap: 12px;
+            max-width: 450px;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #bbb;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Step 1: Personal information -->
+    <header>
+        <h1>Kemal Urazmukhambet</h1>
+        <h2>Media Technologies</h2>
+        <h3>About Me</h3>
+        <p>
+            My name is Kemal. I study Media Technologies at Astana IT University.
+            I am interested in game development, video, music and creative projects.
+            I want to improve my skills and become a good professional.
+        </p>
+    </header>
+
+    <!-- Step 2: Lists -->
+    <section>
+        <h2>My Hobbies</h2>
+        <ol>
+            <li>Playing video games</li>
+            <li>Watching movies</li>
+            <li>Playing sports</li>
+            <li>Listening to music</li>
+            <li>Learning game development</li>
+        </ol>
+
+        <h2>My Favorite Websites</h2>
+        <ul>
+            <li>YouTube</li>
+            <li>GitHub</li>
+            <li>Google</li>
+        </ul>
+    </section>
+
+    <!-- Step 3: Image and links -->
+    <section>
+        <h2>My Photo</h2>
+        <p>My photo is shown below:</p>
+        <img src="photo.jpg"
+             alt="My Photo">
+
+        <h2>Useful Links</h2>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+
+        <br><br>
+        <button type="button">Click Me</button>
+    </section>
+
+    <!-- Step 5: Weekly schedule -->
+    <section>
+        <h2>My Weekly Class Schedule</h2>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Web Technologies</td>
+                <td>Monday</td>
+                <td>10:00 - 11:50</td>
+            </tr>
+            <tr>
+                <td>Game Development</td>
+                <td>Tuesday</td>
+                <td>12:00 - 13:50</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Wednesday</td>
+                <td>14:00 - 15:50</td>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>Thursday</td>
+                <td>10:00 - 11:50</td>
+            </tr>
+            <tr>
+                <td>Media Technologies</td>
+                <td>Friday</td>
+                <td>12:00 - 13:50</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Step 7: Emojis -->
+    <section>
+        <h2>My Mood Today</h2>
+        <p>
+            Today I feel good 😊. I am a little tired 😴, but I am motivated
+            to study and improve my skills 🎮.
+        </p>
+    </section>
+
+    <!-- Step 8: Form -->
+    <section>
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
